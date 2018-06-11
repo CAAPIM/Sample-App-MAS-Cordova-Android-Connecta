@@ -1,0 +1,21 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.ca.mas.connecta.sample"
+    },
+    "cordova-plugin-mas-core": {
+      "PACKAGE_NAME": "com.ca.mas.connecta.sample"
+    },
+    "cordova-plugin-mas-connecta": {
+      "PACKAGE_NAME": "com.ca.mas.connecta.sample"
+    }
+  },
+  "dependent_plugins": {}
+}
