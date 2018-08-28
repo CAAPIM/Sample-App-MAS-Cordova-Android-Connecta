@@ -11,13 +11,14 @@
     "license": "Apache-2.0",
     "dependencies": {
         "cordova-android": "^7.0.0",
-        "cordova-plugin-mas-connecta": "^1.7.12",
-        "cordova-plugin-mas-core": "^1.7.12",
+        "cordova-plugin-mas-connecta": "file:../Cordova-MAS-Connecta",
+        "cordova-plugin-mas-core": "file:../Cordova-MAS-Foundation",
         "cordova-plugin-whitelist": "^1.3.3"
     },
     "cordova": {
         "plugins": {
             "cordova-plugin-whitelist": {},
+            "cordova-plugin-mas-core": {},
             "cordova-plugin-mas-connecta": {}
         },
         "platforms": [
