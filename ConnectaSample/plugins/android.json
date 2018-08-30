@@ -10,13 +10,12 @@
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.ca.mas.sample.connecta"
     },
+    "cordova-plugin-mas-core": {
+      "PACKAGE_NAME": "com.ca.mas.sample.connecta"
+    },
     "cordova-plugin-mas-connecta": {
       "PACKAGE_NAME": "com.ca.mas.sample.connecta"
     }
   },
-  "dependent_plugins": {
-    "cordova-plugin-mas-core": {
-      "PACKAGE_NAME": "com.ca.mas.sample.connecta"
-    }
-  }
+  "dependent_plugins": {}
 }
