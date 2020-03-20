@@ -10,9 +10,10 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.support.v4.content.LocalBroadcastManager;
 import android.util.Base64;
 import android.util.Log;
+
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.ca.mas.connecta.client.MASConnectOptions;
 import com.ca.mas.connecta.client.MASConnectaClient;
@@ -21,8 +22,6 @@ import com.ca.mas.connecta.util.ConnectaConsts;
 import com.ca.mas.cordova.core.MASCordovaException;
 import com.ca.mas.foundation.MAS;
 import com.ca.mas.foundation.MASCallback;
-import com.ca.mas.foundation.MASFoundationStrings;
-import com.ca.mas.foundation.MASUser;
 import com.ca.mas.messaging.MASMessage;
 import com.ca.mas.messaging.MessagingConsts;
 import com.ca.mas.messaging.topic.MASTopic;
@@ -36,7 +35,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import static com.ca.mas.cordova.connecta.MASConnectaUtil.getError;
-import static com.ca.mas.foundation.MASUser.getCurrentUser;
 
 
 public class MASConnectaPlugin extends CordovaPlugin {
